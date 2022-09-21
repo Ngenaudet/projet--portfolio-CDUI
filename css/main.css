@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Paris2024;
+    src: url('../fonts/Paris2024.woff2') format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+:root {
+    scroll-behavior: smooth;
+    --bs-body-bg: #000;
+}
+
+
+/* Global style */
+
+.section {
+    position: relative;
+    padding: 120px 0;
+}
+
+.section>.title-section--fixed {
+    opacity: 0;
+    top: 0;
+}
+
+.rotated {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+}
+
+.title-section--fixed.sticky {
+    position: sticky;
+    opacity: 1;
+}
+
+.section>.title-section--fixed .title-section__h1 {
+    content: 'presentation';
+    position: absolute;
+    top: 0;
+    left: 0em;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: all .2s ease;
+    width: 50px;
+}
+
+.section>.title-section--fixed .title-section__h1:hover {
+    -webkit-text-stroke: 1px white;
+}
+
+#loader {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 999;
+}
+
+#loader svg {
+    width: 300px !important;
+    height: 300px !important;
+}
+
+nav .menu--page__item {
+    font-family: 'Paris2024', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: none !important;
+}
+
+.navbar-nav {
+    height: calc(100vh/1.3);
+    justify-content: space-evenly;
+    counter-reset: count;
+}
+
+.navbar-nav a {
+    cursor: pointer;
+    opacity: .6;
+    transition: all .2s ease;
+    position: relative;
+    counter-increment: count 1;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.navbar a:after {
+    content: '0 ' counter(count);
+    position: absolute;
+    top: 0;
+    right: -40px;
+    font-size: 14px;
+}
+
+.navbar-nav a:hover {
+    cursor: pointer;
+    color: white;
+    opacity: 1;
+}
+
+.noise {
+    position: fixed;
+    inset: 0;
+    z-index: 900;
+    pointer-events: none;
+    background: url('../images/noise.png') repeat center center;
+    opacity: 0.3;
+    visibility: visible;
+    mix-blend-mode: difference;
+}
