@@ -1,0 +1,54 @@
+@font-face {
+    font-family: BLMelody;
+    src: url('../fonts/BLMelody-Regular.woff2') format("woff2") ;
+}
+
+
+@font-face {
+    font-family: DXRigraf;
+    src: url('../fonts/DXRigraf-SemiBoldExpanded.woff2') format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+
+
+
+:root{
+
+    --bs-body-bg:#000000 !important;
+}
+
+body{
+    height: 100vh;
+    background-color: black !important;
+}
+
+.h1__title{
+    font-family: DXRigraf;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #000000;
+    -webkit-text-stroke: 1px white;    
+}
+
+
+.h1__margins{
+    margin: 128px 0 96px;
+}
+
+
+
+.list-group-item {
+background-color: #000000;
+color: white;
+font-family: BLMelody;
+font-size: 32px;
+
+
+}
+
+.bi-file-earmark-pdf { 
+    color: #F70000;
+}
+
