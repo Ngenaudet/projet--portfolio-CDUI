@@ -83,49 +83,8 @@
   width: 100%;
 }
 
-h2, h4{
+.pad-titre-propos h2 h4{
   color: #000;
-}
-
-
-.flip-card {
-  background-color: transparent;
-  width: 400px;
-  height: 600px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 400px;
-  height: 584px;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 400px;
-  height: 584px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-radius: 20px;
-}
-
-.flip-card-front {
-  background-color: none;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #000000;
-  color: white;
-  transform: rotateY(180deg);
 }
 
 *{
@@ -137,10 +96,90 @@ img{
   box-shadow: none;
 }
 
-.pad-titre-propos{
-  padding-bottom: 50px ;
-}  
 
-.pad-top-text{
-  padding-top: 30px;
+label {
+	width: 400px;
+	height: 600px;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+  align-content: center;
 }
+
+.flip-card {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card .front,
+.flip-card .back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 20px;
+}
+
+.flip-card .back {
+	transform: rotateX(180deg);
+	color: #000;
+	background: rgb(10, 10, 10);
+}
+
+label:hover .flip-card {
+	transform: rotateX(2deg);
+}
+
+input {
+	display: none;
+}
+
+:checked + .flip-card {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card {
+	transform: rotateX(175deg);
+}
+
+.front img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.back h1 {
+	color: #424752;
+	margin: 30px 0 0 0;
+}
+
+hr {
+	width: 180px;
+	
+}
+
+.back p {
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
