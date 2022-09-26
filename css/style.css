@@ -30,9 +30,11 @@ h1 {
 }
 
 .card {
-    border-radius: 20px;
+    max-width: 18rem;
+    height: auto;
     --bs-card-bg: transparent; 
     --bs-card-border-width : 0px;
+
 }
 
 .card-body {
@@ -44,3 +46,6 @@ h1 {
     border-radius: 0px 0px 20px 20px;
 }
 
+.card-img-top {
+    border-radius: 20px;
+}
