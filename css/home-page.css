@@ -1,0 +1,146 @@
+@font-face {
+    font-family:dx-rigraf;
+    src: url("fonts\DXRigraf-SemBdExpIta.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  :root {
+    scroll-behavior: smooth;
+    --bs-body-bg: #000;
+  /* Global style */
+  }
+  
+  .noise {
+    position: fixed;
+    inset: 0;
+    z-index: 900;
+    pointer-events: none;
+    background: url("../images/noise.png") repeat center center;
+    opacity: 0.3;
+    visibility: visible;
+    mix-blend-mode: difference;
+  }
+  
+  .accordion .accordion-item,
+  .accordion .accordion-item .accordion-button 
+  {
+    -webkit-text-stroke: 2px white;
+    font-family: dx-rigraf;
+    font-size: 100px;
+    color: transparent;
+    background: transparent 
+  } 
+  
+  .accordion .accordion-item,
+  .accordion .accordion-item .accordion-button:hover 
+  {
+    font-family: dx-rigraf;
+    font-size: 100px;
+    color: white;
+  } 
+  
+  
+  .accordion .accordion-item,
+  .accordion .accordion-item .accordion-button .colapsed
+  {
+    -webkit-text-stroke: unset;
+    color: white;
+    font-family: 'BL Melody';
+    font-size: 16px;
+    border-style: hidden;
+  }
+  
+  .accordion-button::after {
+  
+    opacity: 0;
+  }
+  
+  .accordion-button::before {
+  
+    opacity: 0;
+    }
+  
+  
+.accordion-button:focus,
+.accordion-button:active
+{
+    border-color: none !important;
+    border:none !important;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+  
+
+.accordion-body{
+  background-color: white;
+  max-width: 100% !important;
+}
+
+.container .container-fluid {
+  width: 100%;
+}
+
+h2, h4{
+  color: #000;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 600px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 400px;
+  height: 584px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 400px;
+  height: 584px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.flip-card-front {
+  background-color: none;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #202020;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+*{
+  box-sizing: content-box !important;
+}
+
+img{
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.pad-titre-propos{
+  padding-bottom: 50px ;
+}  
+
+.pad-top-text{
+  padding-top: 30px;
+}
