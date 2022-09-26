@@ -7,11 +7,10 @@ $(document).ready(function() {
     // setTimeout(() => {
     //     stopLoader();
     // }, "3000")
+    initPage();
 
-    // initPage();
-
-    // changeLottieOnHover();
-
+    changeLottieOnHover();
+    
     let accordion_items = $('.accordion-item');
 
     accordion_items.on('click', function(e) {
