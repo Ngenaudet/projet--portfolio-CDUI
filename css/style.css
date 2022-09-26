@@ -5,36 +5,41 @@
     font-display: swap;
 }
 
-@media screen and (min-width: 768px) {
-    h1 {
-      font-size: 120px;
-      -webkit-text-stroke: 3px white;
-      color: transparent;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-    h1 {
-      font-size: 40px;
-      -webkit-text-stroke: 1px white;
-      color: transparent;
-    }
-}
-
 body {
     background-color: #0B0B0C;
 }
 
-h1 {
+.title__page {
+    font-size: 40px;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
     font-family: dx-rigraf;
 }
+
+@media screen and (min-width: 768px) {
+    .title__page {
+      font-size: 120px;
+    }
+  }
 
 .card {
     max-width: 18rem;
     height: auto;
     --bs-card-bg: transparent; 
     --bs-card-border-width : 0px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;    
+    transition: transform 0.3s ease; 
+}
 
+.card img {
+  transform: scale(1);
+  transition: all 0.3s ease;        
+}
+
+.card:hover img{
+    transform: scale(1.5);
 }
 
 .card-body {
@@ -46,6 +51,6 @@ h1 {
     border-radius: 0px 0px 20px 20px;
 }
 
-.card-img-top {
-    border-radius: 20px;
+.cards__container{
+    gap: 45px 0;
 }
