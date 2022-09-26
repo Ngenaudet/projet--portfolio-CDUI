@@ -123,7 +123,7 @@ h2, h4{
 }
 
 .flip-card-back {
-  background-color: #202020;
+  background-color: #000000;
   color: white;
   transform: rotateY(180deg);
 }
