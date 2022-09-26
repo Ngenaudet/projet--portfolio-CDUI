@@ -1,13 +1,25 @@
+@font-face {
+    font-family: dx-rigraf;
+    src: url("fonts/DXRigraf-SemBdExpIta.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    background-color: black;
+    background-color: #0B0B0C;
 }
 
 h1 {
-    color: white;
+    color: transparent;
+    font-family: dx-rigraf;
+    font-size: 120px;
+    -webkit-text-stroke: 2px #fff;
 }
 
 .card {
     border-radius: 20px;
+    --bs-card-bg: transparent; 
+    --bs-card-border-width : 0px;
 }
 
 .card-body {
