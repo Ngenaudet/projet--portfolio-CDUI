@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.card-body {
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
