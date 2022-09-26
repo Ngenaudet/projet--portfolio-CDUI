@@ -72,7 +72,7 @@
   
 
 .accordion-body{
-  background-color: white;
+  
   max-width: 100% !important;
 }
 
@@ -90,12 +90,11 @@
 
 img{
   border-radius: 20px;
-  box-shadow: none;
 }
 
 label {
-	width: 400px;
-	height: 600px;
+	width: 416px;
+	height: 520px;
 	perspective: 1000px;
 	transform-style: preserve-3d;
 	cursor: pointer;
@@ -162,10 +161,22 @@ label:hover :checked + .flip-card {
 	margin: 0 auto;
 }
 
+.back{
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b512fbb2-3470-4fbe-bfeb-32524c75ce60/d6lhrwy-57c63b0b-18c0-4187-a799-3b58bafd5a52.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I1MTJmYmIyLTM0NzAtNGZiZS1iZmViLTMyNTI0Yzc1Y2U2MFwvZDZsaHJ3eS01N2M2M2IwYi0xOGMwLTQxODctYTc5OS0zYjU4YmFmZDVhNTIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.R9gW2kDCcen-HMPvLvluVByk1VhpMHPda27oiaNigyw) !important;
+  background-size: cover !important;
+}
 
 
+.pad-titre-propos p {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  padding-bottom: 72px;
+}
 
-
+.container{
+  
+  padding: 0;
+}
 
 
 
