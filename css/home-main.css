@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "dx-rigraf";
-  src: url("../fonts/DXRigraf-SemBdExpIta.woff2") format("woff2");
+  font-family: 'dx-rigraf';
+  src: url('../fonts/DXRigraf-SemBdExpIta.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "creato-md";
-  src: url("../fonts/CreatoDisplay-Medium.woff2") format("woff2");
+  font-family: 'creato-md';
+  src: url('../fonts/CreatoDisplay-Medium.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
 }
- 
+
 :root {
   scroll-behavior: smooth;
   --bs-body-bg: #000;
@@ -22,7 +22,7 @@
   inset: 0;
   z-index: 900;
   pointer-events: none;
-  background: url("../images/noise.png") repeat center center;
+  background: url('../images/noise.png') repeat center center;
   opacity: 0.3;
   visibility: visible;
   mix-blend-mode: difference;
@@ -31,13 +31,6 @@
 body {
   height: 100vh;
   padding: 0%;
-}
-
-.close__section {
-
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
 
 .logo__CDUI {
@@ -63,36 +56,36 @@ body {
 }
 
 .accordion .accordion-item .accordion-button {
-  font-family: "dx-rigraf";
+  font-family: 'dx-rigraf';
   -webkit-text-stroke: 2px white;
   font-size: 120px;
   color: transparent;
   background: transparent;
   transition: all 0.3s ease;
-      padding: 0 0 0 2em;
+  padding: 0 0 0 2em;
 }
 
 @media screen and (max-width: 1280px) {
-  body .accordion .accordion-item .accordion-button  {
+  body .accordion .accordion-item .accordion-button {
     font-size: 80px;
     padding: 0 0 0 7rem;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  body .accordion .accordion-item .accordion-button  {
+  body .accordion .accordion-item .accordion-button {
     font-size: 50px;
-    padding: .6em 0 0 4rem;
+    padding: 0.6em 0 0 4rem;
   }
-  .logo__CDUI{
+  .logo__CDUI {
     width: 100px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  body .accordion .accordion-item .accordion-button  {
+  body .accordion .accordion-item .accordion-button {
     font-size: 40px;
-    padding: .6em 0 0 1rem;
+    padding: 0.6em 0 0 1rem;
     -webkit-text-stroke: 1px white;
   }
 }
@@ -124,22 +117,38 @@ body {
 
 .accordion .accordion-body p {
   /* font-family: 'BL Melody';    */
-  font-family: "dx-rigraf";
+  font-family: 'dx-rigraf';
   color: purple;
   font-size: 1rem;
 }
 
 .accordion-button:focus,
 .accordion-button:active {
-    box-shadow: none;
-    outline: none;
+  box-shadow: none;
+  outline: none;
 }
 
-.close__section{
-    text-align: end;   
-    cursor: pointer;  
+.titre__section {
+  font-size: 70px;
+  width: 80px;
+  height: 80px;
+  transform: rotate(270deg);
+
 }
 
-.close__section svg:hover path{
-    color: red;
+.sticky-top {
+  display: flex;
+  justify-content: end;
+  top: 30px;
+}
+
+.close__section svg {
+  cursor: pointer;
+}
+
+.close__section svg:hover {
+  color: red;
+}
+.close__section svg path {
+  size: 90px;
 }
