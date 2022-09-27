@@ -12,9 +12,6 @@
   font-display: swap;
 }
  
- 
- 
-
 :root {
   scroll-behavior: smooth;
   --bs-body-bg: #000;
@@ -134,7 +131,6 @@ body {
 
 .accordion-button:focus,
 .accordion-button:active {
-<<<<<<< HEAD
     box-shadow: none;
     outline: none;
 }
@@ -147,10 +143,3 @@ body {
 .close__section svg:hover path{
     color: red;
 }
-
-
-=======
-  box-shadow: none;
-  outline: none;
-}
->>>>>>> daad759b251ca0572ccc7dcae0972fe8cd1f9e11
