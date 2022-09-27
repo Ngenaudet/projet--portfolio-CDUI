@@ -10,12 +10,20 @@ $(document).ready(function() {
     initPage();
 
     changeLottieOnHover();
-    
+
     let accordion_items = $('.accordion-item');
 
     accordion_items.on('click', function(e) {
         $(this).closest('.row').toggleClass('h-0');
     });
+
+    $('.accordion-button').on('click', (e) => {
+        let idSection = $(e.target).closest('.accordion-item').find('.accordion-body');
+
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(idSection).offset().top,
+        }, 800);
+    })
 
 });
 

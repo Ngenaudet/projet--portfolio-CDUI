@@ -1,127 +1,117 @@
 @font-face {
-  font-family: dx-rigraf;
-  src: url("fonts\DXRigraf-SemBdExpIta.woff2") format("woff2");
-  font-style: normal;
-  font-display: swap;
+    font-family: 'dx-rigraf';
+    src: url("../fonts/DXRigraf-SemBdExpIta.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: creato-md;
-  src: url("fonts\CreatoDisplay-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-display: swap;
+    font-family: 'creato-md';
+    src: url("../fonts/CreatoDisplay-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
 }
 
 @media screen and (max-width: 1280px) {
-  .accordion .accordion-item .accordion-button {
-    font-size: 3em;
-  }
+    .accordion .accordion-item .accordion-button {
+        font-size: 3em;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .accordion .accordion-item .accordion-button {
-    padding: 0 0 0 1em;
-    font-size: 2em;
-  }
+    .accordion .accordion-item .accordion-button {
+        padding: 0 0 0 1em;
+        font-size: 2em;
+    }
 }
 
-
-
 :root {
-  scroll-behavior: smooth;
-  --bs-body-bg: #000;
+    scroll-behavior: smooth;
+    --bs-body-bg: #000;
 }
 
 .noise {
-  position: fixed;
-  inset: 0;
-  z-index: 900;
-  pointer-events: none;
-  background: url("../images/noise.png") repeat center center;
-  opacity: 0.3;
-  visibility: visible;
-  mix-blend-mode: difference;
+    position: fixed;
+    inset: 0;
+    z-index: 900;
+    pointer-events: none;
+    background: url("../images/noise.png") repeat center center;
+    opacity: 0.3;
+    visibility: visible;
+    mix-blend-mode: difference;
 }
 
 body {
-  height: 100vh;
-  padding: 0%;
-}
-
-
-.row__logo, svg {
-  display: flex;
-  justify-content: end;
-  cursor: pointer;
+    height: 100vh;
+    padding: 0%;
 }
 
 .logo__CDUI {
-  width: 10%;
-  position: absolute;
+    cursor: pointer;
+}
+
+.logo__CDUI {
+    width: 194px;
 }
 
 .row.h-0 {
-  height: auto !important;
+    height: auto !important;
 }
-
-
 
 .accordion .accordion-item {
-  background: transparent;
-  width: 100%;
+    background: transparent;
+    width: 100%;
 }
-
 
 .accordion-header {
-  color: transparent;
-  background: transparent;
+    color: transparent;
+    background: transparent;
 }
 
-
-.accordion .accordion-item .accordion-button{
-  font-family: "dx-rigraf";
-  -webkit-text-stroke: 2px white;
-  font-size: 4em;
-  color: transparent;
-  background: transparent;
-  transition: all 0.3s ease;
-  padding: 0 0 0 2em;
+.accordion .accordion-item .accordion-button {
+    font-family: "dx-rigraf";
+    -webkit-text-stroke: 2px white;
+    font-size: 4em;
+    color: transparent;
+    background: transparent;
+    transition: all 0.3s ease;
+    padding: 0 0 0 2em;
 }
+
 .accordion .accordion-item .accordion-button:after {
-  content: none;
+    content: none;
 }
 
 .accordion-button:not(.collapsed) {
-  position: sticky;
+    position: sticky;
 }
 
 .accordion-flush {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100%;
-  padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding: 0;
 }
 
 .accordion-body {
-  background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 
 .accordion .accordion-item .accordion-button:hover {
-  color: white;
+    color: white;
 }
 
 .accordion .accordion-body p {
-  /* font-family: 'BL Melody';    */
-  font-family: "dx-rigraf";
-  color: purple;
-  font-size: 1rem;
+    /* font-family: 'BL Melody';    */
+    font-family: "dx-rigraf";
+    color: purple;
+    font-size: 1rem;
 }
 
 .accordion-button:focus,
 .accordion-button:active {
-  box-shadow: none;
-  outline: none;
+    box-shadow: none;
+    outline: none;
 }
-
