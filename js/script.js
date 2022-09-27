@@ -23,7 +23,11 @@ $(document).ready(function() {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(idSection).offset().top,
         }, 800);
-    })
+    });
+
+    $(".close__section").on('click', function() {
+        $('.collapse').collapse('hide')
+    });
 
 });
 
@@ -109,9 +113,3 @@ function getFooter() {
         }
     });
 }
-
-$(document).ready(function(){
-    $(".close__section").on('click', function () {
-       $('.collapse').collapse('hide')
-    });
-});
