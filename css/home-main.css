@@ -115,3 +115,14 @@ body {
     box-shadow: none;
     outline: none;
 }
+
+.close__section{
+    text-align: end;   
+    cursor: pointer;  
+}
+
+.close__section svg:hover path{
+    color: red;
+}
+
+

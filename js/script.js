@@ -109,3 +109,9 @@ function getFooter() {
         }
     });
 }
+
+$(document).ready(function(){
+    $(".close__section").on('click', function () {
+       $('.collapse').collapse('hide')
+    });
+});
