@@ -1,15 +1,8 @@
 @font-face {
-<<<<<<< HEAD
   font-family: 'dx-rigraf';
   src: url('../fonts\DXRigraf-SemiBoldExpanded.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
-=======
-    font-family: 'dx-rigraf';
-    src: url('../fonts/DXRigraf-SemBdExpIta.woff2') format('woff2');
-    font-style: normal;
-    font-display: swap;
->>>>>>> f33130058d1027bdb410e1545037be9eb3b7ee3d
 }
 
 @font-face {
@@ -31,7 +24,6 @@
 }
 
 .noise {
-<<<<<<< HEAD
   position: fixed;
   inset: 0;
   z-index: 900;
@@ -56,16 +48,6 @@
   transform: translate(calc(-50% + 15px), -50%);
   z-index: 9999;
   mix-blend-mode: difference;
-=======
-    position: fixed;
-    inset: 0;
-    z-index: 900;
-    pointer-events: none;
-    background: url('../images/noise.png') repeat center center;
-    opacity: 0.3;
-    visibility: visible;
-    mix-blend-mode: difference;
->>>>>>> f33130058d1027bdb410e1545037be9eb3b7ee3d
 }
 
 .cursor2 {
@@ -101,15 +83,7 @@ body {
 }
 
 .logo__CDUI {
-<<<<<<< HEAD
   width: 194px;
-=======
-    cursor: pointer;
-}
-
-.logo__CDUI {
-    width: 194px;
->>>>>>> f33130058d1027bdb410e1545037be9eb3b7ee3d
 }
 
 .row.h-0 {
@@ -127,7 +101,6 @@ body {
 }
 
 .accordion .accordion-item .accordion-button {
-<<<<<<< HEAD
   font-family: 'dx-rigraf';
   -webkit-text-stroke: 2px white;
   font-size: 120px;
@@ -136,15 +109,6 @@ body {
   transition: all 0.3s ease;
   padding: 0 0 0 1em;
   cursor: none;
-=======
-    font-family: 'dx-rigraf';
-    -webkit-text-stroke: 2px white;
-    font-size: 120px;
-    color: transparent;
-    background: transparent;
-    transition: all 0.3s ease;
-    padding: 0 0 0 1em;
->>>>>>> f33130058d1027bdb410e1545037be9eb3b7ee3d
 }
 
 @media screen and (max-width: 1280px) {
@@ -198,16 +162,9 @@ body {
 }
 
 .accordion .accordion-body p {
-<<<<<<< HEAD
   font-family: 'dx-rigraf';
   color: purple;
   font-size: 1rem;
-=======
-    /* font-family: 'BL Melody';    */
-    font-family: 'dx-rigraf';
-    color: purple;
-    font-size: 1rem;
->>>>>>> f33130058d1027bdb410e1545037be9eb3b7ee3d
 }
 
 .accordion-button:focus,
@@ -216,7 +173,6 @@ body {
     outline: none;
 }
 
-<<<<<<< HEAD
 
 /* Titre section sticky */
 .titre__section {
@@ -300,52 +256,3 @@ left: -115px;
   }
 }
 /* Media screen titre sticky */
-=======
-.titre__section {
-    font-size: 70px;
-    transform: rotate(-90deg);
-    top: 100px;
-    left: 0;
-}
-
-.sticky-top {
-    /* display: flex;
-  justify-content: end;
-  top: 30px; */
-}
-
-.close__section svg {
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-}
-
-@media screen and (max-width:992px) {
-    .close__section svg {
-        width: 30px;
-    }
-}
-
-.close__section svg:hover {
-    color: red;
-}
-
-.close__section svg path {
-    size: 90px;
-}
-
-@media screen and (max-width: 992px) {
-    .accordion .accordion-body .container__sticky {
-        margin: 0 0 0 auto !important;
-    }
-    .accordion .accordion-body .container__sticky .titre__section {
-        left: -50px !important;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .accordion .accordion-body .container__sticky .titre__section {
-        left: -50px !important;
-    }
-}
->>>>>>> f33130058d1027bdb410e1545037be9eb3b7ee3d
