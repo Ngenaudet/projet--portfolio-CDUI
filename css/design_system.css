@@ -14,26 +14,26 @@
 
 /* @include media-breakpoint-up(md) { 
     h4 {
-    color: white;
-    font-family: BLMelody;
-    font-size: 16px;
+        color: white;
+        font-family: BLMelody;
+        font-size: 16px;
     }
-
+    
     .bi-file-earmark-pdf { 
         fill: #F70000;
         width: 16px;
         height: 16px;
     }
-
-        .h1__title{
-            font-family: DXRigraf;
-            font-size: 40px;
-            text-transform: uppercase;
-            color: #000000;
-            -webkit-text-stroke: 1px white;    
-        }
-
- } */
+    
+    .h1__title{
+        font-family: DXRigraf;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #000000;
+        -webkit-text-stroke: 1px white;    
+    }
+    
+} */
 
 
 :root{
@@ -74,14 +74,14 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-     .h1__title{
+    .h1__title{
         font-size: 40px;
     }
-
+    
     .list-group-item h4{
         font-size: 16px;
     }
-
+    
     .bi-file-earmark-pdf { 
         width: 16px;
         height: 16px;
@@ -90,41 +90,66 @@ h4 {
         width: 78%;
         height: 18px;
         overflow: hidden;
-        margin: 0;       
-        
+        margin: 0;      
     }
-    .list-group-item h4 span{
-  
-        padding-right: 2em;
-        animation: defilement 5s infinite linear  ;
-     
-        
+
+
+    
+    /* Texte défilant */
+    .messagedefilant {
+        display: block;
+        margin: 40px auto;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        width: 50%;
+        max-width: 640px;
+        height: 60px;
+    }
+    
+    .messagedefilant div {
+        position: absolute;
+        min-width: 100%; /* au minimum la largeur du conteneur */
+    }
+    
+    .messagedefilant div span, 
+    .messagedefilant div:after {
+        position: relative;
+        display: inline-block;        
+        white-space: nowrap;
+        top:0;
+    }
+    
+    .messagedefilant div span {
+        animation: defilementSpan 6s infinite linear;
+    }
+    
+    .messagedefilant div:after {
+        position: absolute;
+        top:0; left:0;
+        content:attr(data-titre-expose);
+        animation: defilementDataAttribut 6s infinite linear;
+        /* background: #edc; */
+    }
+    
+    @keyframes defilementSpan {
+        0% { margin-left: 0; }
+        100% { margin-left: -100%; }
+    }
+    
+    @keyframes defilementDataAttribut {
+        0% { margin-left: 100%; }
+        100% { margin-left: 0%; }
     }
 
 }
-
-
-@keyframes defilement {
-    0% { margin-left: 0%; }
-    100% { margin-left: -100%; }
     
-   
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
-
-    h4 span{
-       
-        max-width: 60%;
-        overflow:hidden ;
-        white-space: nowrap;
+    
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        .list-group-item h4{            
+            max-width: 90%;
+            overflow:hidden ;
+            white-space: nowrap;
+        }    
     }
-
     
-       
-   }
-
-
-
-   
- 
