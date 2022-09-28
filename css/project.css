@@ -1,0 +1,155 @@
+@font-face {
+    font-family: BLMelody;
+    src: url('../fonts/BLMelody-Regular.woff2') format("woff2") ;
+}
+
+
+@font-face {
+    font-family: DXRigraf;
+    src: url('../fonts/DXRigraf-SemiBoldExpanded.woff2') format("woff2");
+    font-style: normal;
+    font-display: swap
+}
+
+
+.h1__title{
+    font-family: DXRigraf;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #0B0B0C;
+    -webkit-text-stroke: 1px white;
+    border: 120;
+}
+
+
+hr.solid{
+    border-top: 2px solid #fff;
+}
+
+
+.h1__margins{
+    margin: 128px 0 96px;  
+}
+
+
+h4 {
+    color: white;
+    font-family: BLMelody;
+    font-size: 32px;
+}
+
+
+h3 {
+    color: white;
+    font-family: BLMelody;
+    font-size: 40px;
+}
+
+
+h2 {
+    color: white;
+    font-family: BLMelody;
+    font-size: 14px;
+}
+
+
+body {
+    background-color: #0B0B0C;
+}
+
+
+div {
+    background-color: #0B0B0C;
+}
+
+
+span {
+    background-color: #0B0B0C;
+}
+
+
+div.accordion-body {
+    font-family: BLMelody;
+    font-size: 14px;
+    color: white;
+    background-color: #0B0B0C;
+    margin: 15px 62px 0px 62px;
+    padding: 0px;
+}
+
+
+button.accordion-button {
+    color: white;
+    background-color: 0B0B0C;
+    font-size: 40px;
+    padding: 0px;
+}
+
+
+button.accordion-button.collapsed {
+    color: white;
+    background-color: #0B0B0C;
+    margin: 0px;
+}
+
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+div.accordion-item {
+    color: 0B0B0C;
+    background-color: #0B0B0C;
+}
+
+
+.col.offset-md-1.col-xs-12{
+margin-bottom: 80px;
+}
+
+
+.accordion-button:not(.collapsed) {
+background-color: #0B0B0C;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+
+img {
+    margin: 0px 30px 0px 0px;
+}
+
+
+hr {
+    border-top:2px dotted #0B0B0C;
+    margin: 15px 0px 15px 0px;
+}
+
+
+a {
+    margin: 0px 10px 10px 0px;
+    font-family: BLMelody;
+    font-size: 14px;
+    color: antiquewhite;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .h1__title{
+        font-size: 44px;
+    }
+}
