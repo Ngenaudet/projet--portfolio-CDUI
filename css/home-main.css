@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'dx-rigraf';
+  src: url('../fonts\DXRigraf-SemiBoldExpanded.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'creato-md';
+    src: url('../fonts/CreatoDisplay-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+}
+*{
+  cursor: none; 
+  box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --bs-body-bg: #000;
+}
+
+.noise {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  pointer-events: none;
+  background: url('../images/noise.png') repeat center center;
+  opacity: 0.3;
+  visibility: visible;
+
+}
+
+/* Curseur Rond */
+.cursor {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.cursor2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+  /* opacity: .3; */
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.hover {
+  background-color: blue;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
+
+/* Curseur Rond */
+
+body {
+    height: 100vh;
+    padding: 0%;
+}
+
+.logo__CDUI {
+  width: 194px;
+}
+
+.row.h-0 {
+    height: auto !important;
+}
+
+.container__home .accordion .accordion-item {
+    background: transparent;
+    width: 100%;
+}
+
+.container__home .accordion-header {
+    color: transparent;
+    background: transparent;
+}
+
+.container__home .accordion .accordion-item .accordion-button {
+  font-family: 'dx-rigraf';
+  -webkit-text-stroke: 2px white;
+  font-size: 120px;
+  color: transparent;
+  background: transparent;
+  transition: all 0.3s ease;
+  padding: 0 0 0 1em;
+  cursor: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .container__home .accordion .accordion-item .accordion-button {
+        font-size: 80px;
+        padding: 0 0 0 7rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  .container__home .accordion .accordion-item .accordion-button {
+        font-size: 50px;
+        padding: 0.6em 0 0 4rem;
+    }
+    .header__home .logo__CDUI {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container__home .accordion .accordion-item .accordion-button {
+        font-size: 36px;
+        padding: 0.6em 0 0 1rem;
+        -webkit-text-stroke: 1px white;
+    }
+}
+
+.container__home .accordion .accordion-item .accordion-button:after {
+    content: none;
+}
+
+.container__home .accordion-button:not(.collapsed) {
+    position: sticky;
+}
+
+.container__home .accordion-flush {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding: 0;
+}
+
+.container__home .accordion-body {
+    background: rgb(255, 255, 255);
+}
+
+.container__home .accordion .accordion-item .accordion-button:hover {
+    color: white;
+}
+
+.container__home .accordion .accordion-body p {
+  font-family: 'dx-rigraf';
+  color: purple;
+  font-size: 1rem;
+}
+
+.container__home .accordion-button:focus,
+.container__home .accordion-button:active {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Titre section sticky */
+.container__home .titre__section {
+  font-family: 'dx-rigraf';
+  font-size: 70px;
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  color: transparent;
+  background: transparent;
+  transform: rotate(-90deg);
+}
+
+.container__home .titre__projets {
+top: 97px;
+left: -115px;
+}
+.container__home .titre__ressources{
+  top: 160px;
+  left: -179px;
+}
+.container__home .titre__apropos {
+  top: 68px;
+  left: -147px;
+}
+.container__home .titre__formation {
+  top: 98px;
+  left: -180px;
+}
+/* Titre section sticky */
+
+/* Bouton croix accordion */
+@media screen and (max-width: 992px) {
+   .container__home .close__section .bi {
+    font-size: 30px !important;
+    /* width: 30px;
+    height: 30px; */
+  }
+}
+
+.container__home .close__section svg {
+  cursor: none;
+  width: 50px;
+  height: 50px;
+}
+
+ .container__home .close__section .bi{
+  font-size: 50px;
+}
+
+ .container__home .close__section .bi:before{
+  display: block;
+}
+ .container__home .close__section .bi-x-circle-fill {
+  display: none; 
+}
+
+ .container__home .close__section:hover .bi-x-circle-fill {
+  display: block; 
+}
+ .container__home .close__section:hover .bi-x-circle {
+  display: none; 
+}
+
+/* Bouton croix accordion */
+
+
+/* Media screen titre sticky */
+@media screen and (max-width: 992px) {
+  .container__home .accordion  .accordion-body .container__sticky {
+    margin: 0 0 0 auto !important;
+  }
+  .container__home .accordion  .accordion-body .container__sticky .titre__section {
+    left: -50px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container__home .accordion .accordion-body .container__sticky .titre__section {
+    left: -50px !important;
+  }
+}
+/* Media screen titre sticky */
