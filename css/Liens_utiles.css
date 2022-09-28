@@ -1,0 +1,8 @@
+head {
+    grid-column: auto auto ;
+    background-color: black;
+    height: 87.6;
+    width: 714.13;
+    display: flex
+     ;
+}
