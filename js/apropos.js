@@ -9,7 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     boxesToFlip.forEach(function (box) {
         box.addEventListener("click", function (element) {
+            element.stopPropagation();
             let body = element.target.closest(".body");
+
+            if (element.target.tagName === "svg" || element.target.tagName === "path") {
+                return;
+            }
             // Toggle class animateContent of the class list
             body.classList.toggle("animateContent");
         });

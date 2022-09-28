@@ -16,8 +16,12 @@
     -webkit-text-stroke: 1px white;
     color: transparent;
     font-family: dx-rigraf;
-    margin: 20px 0 20px 50px;
 }
+.h1_trom,
+.p-trom {
+    margin: 20px 50px 20px 50px;
+}
+
 @media screen and (min-width: 768px) {
     .h1_trom {
         font-size: 120px;
@@ -25,7 +29,7 @@
 }
 
 .a-propos {
-    background-color: black;
+    background-color: #0b0b0c;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -95,7 +99,7 @@
 
 .container .box .body .content div {
     transform-style: preserve-3d;
-    background-color: black;
+    background-color: #0b0b0c;
     border-radius: 20px;
     opacity: 60%;
     padding: 30px;
@@ -118,18 +122,17 @@ main .box .body.animateContent .socials__content {
     position: relative;
     z-index: 1;
     height: 140px;
-    width: 30px;
     opacity: 1;
     transition: all 0.5s ease;
 }
 .socials__content {
-    margin: 15px 30px 0 0;
+    margin: 15px 15px 0 0;
 }
 .box .title__card h2 {
     margin: 15px 0 0 20px;
     width: 100px;
     font-size: 28px;
-    color: #000;
+    color: #0b0b0c;
     font-family: "BL Melody";
 }
 /* 
@@ -140,4 +143,8 @@ main .box .body.animateContent .socials__content {
 .formateur {
     font-size: 20px;
     color: rgb(49, 49, 49);
+}
+
+a {
+    color: #0b0b0c;
 }
