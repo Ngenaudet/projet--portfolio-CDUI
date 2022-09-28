@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'dx-rigraf';
-  src: url('../fonts/DXRigraf-SemBdExpIta.woff2') format('woff2');
+  src: url('../fonts\DXRigraf-SemiBoldExpanded.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
 }
@@ -10,6 +10,12 @@
   src: url('../fonts/CreatoDisplay-Medium.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
+}
+*{
+  cursor: none;
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
 }
 
 :root {
@@ -25,16 +31,55 @@
   background: url('../images/noise.png') repeat center center;
   opacity: 0.3;
   visibility: visible;
+
+}
+
+/* Curseur Rond */
+.cursor {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 9999;
   mix-blend-mode: difference;
 }
+
+.cursor2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+  /* opacity: .3; */
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.hover {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
+
+/* Curseur Rond */
 
 body {
   height: 100vh;
   padding: 0%;
-}
-
-.logo__CDUI {
-  cursor: pointer;
 }
 
 .logo__CDUI {
@@ -62,7 +107,8 @@ body {
   color: transparent;
   background: transparent;
   transition: all 0.3s ease;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 1em;
+  cursor: none;
 }
 
 @media screen and (max-width: 1280px) {
@@ -116,7 +162,6 @@ body {
 }
 
 .accordion .accordion-body p {
-  /* font-family: 'BL Melody';    */
   font-family: 'dx-rigraf';
   color: purple;
   font-size: 1rem;
@@ -128,27 +173,86 @@ body {
   outline: none;
 }
 
-.titre__section {
-  font-size: 70px;
-  width: 80px;
-  height: 80px;
-  transform: rotate(270deg);
 
+/* Titre section sticky */
+.titre__section {
+  font-family: 'dx-rigraf';
+  font-size: 70px;
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  color: transparent;
+  background: transparent;
+  transform: rotate(-90deg);
 }
 
-.sticky-top {
-  display: flex;
-  justify-content: end;
-  top: 30px;
+.titre__projets {
+top: 97px;
+left: -115px;
+}
+.titre__ressources{
+  top: 160px;
+  left: -179px;
+}
+.titre__apropos {
+  top: 68px;
+  left: -147px;
+}
+.titre__formation {
+  top: 98px;
+  left: -180px;
+}
+/* Titre section sticky */
+
+/* Bouton croix accordion */
+@media screen and (max-width: 992px) {
+  .close__section .bi
+  .close__section .bi:before {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .close__section svg {
-  cursor: pointer;
+  cursor: none;
+  width: 50px;
+  height: 50px;
 }
 
-.close__section svg:hover {
-  color: red;
+.close__section .bi{
+  font-size: 50px;
 }
-.close__section svg path {
-  size: 90px;
+
+.close__section .bi:before{
+  display: block;
 }
+.close__section .bi-x-circle-fill {
+  display: none; 
+}
+
+.close__section:hover .bi-x-circle-fill {
+  display: block; 
+}
+.close__section:hover .bi-x-circle {
+  display: none; 
+}
+
+/* Bouton croix accordion */
+
+
+
+/* Media screen titre sticky */
+@media screen and (max-width: 992px) {
+  .accordion .accordion-body .container__sticky {
+    margin: 0 0 0 auto !important;
+  }
+  .accordion .accordion-body .container__sticky .titre__section {
+    left: -50px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .accordion .accordion-body .container__sticky .titre__section {
+    left: -50px !important;
+  }
+}
+/* Media screen titre sticky */
