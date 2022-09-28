@@ -12,9 +12,7 @@
     font-display: swap;
 }
 *{
-  cursor: none;
-  /* margin: 0;
-  padding: 0; */
+  cursor: none; 
   box-sizing: border-box;
 }
 
@@ -65,7 +63,7 @@
 }
 
 .hover {
-  background-color: red;
+  background-color: blue;
   opacity: 0.5;
 }
 
@@ -90,17 +88,17 @@ body {
     height: auto !important;
 }
 
-.accordion .accordion-item {
+.container__home .accordion .accordion-item {
     background: transparent;
     width: 100%;
 }
 
-.accordion-header {
+.container__home .accordion-header {
     color: transparent;
     background: transparent;
 }
 
-.accordion .accordion-item .accordion-button {
+.container__home .accordion .accordion-item .accordion-button {
   font-family: 'dx-rigraf';
   -webkit-text-stroke: 2px white;
   font-size: 120px;
@@ -112,39 +110,39 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
-    body .accordion .accordion-item .accordion-button {
+    .container__home .accordion .accordion-item .accordion-button {
         font-size: 80px;
         padding: 0 0 0 7rem;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    body .accordion .accordion-item .accordion-button {
+  .container__home .accordion .accordion-item .accordion-button {
         font-size: 50px;
         padding: 0.6em 0 0 4rem;
     }
-    .logo__CDUI {
+    .header__home .logo__CDUI {
         width: 100px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    body .accordion .accordion-item .accordion-button {
-        font-size: 40px;
+    .container__home .accordion .accordion-item .accordion-button {
+        font-size: 36px;
         padding: 0.6em 0 0 1rem;
         -webkit-text-stroke: 1px white;
     }
 }
 
-.accordion .accordion-item .accordion-button:after {
+.container__home .accordion .accordion-item .accordion-button:after {
     content: none;
 }
 
-.accordion-button:not(.collapsed) {
+.container__home .accordion-button:not(.collapsed) {
     position: sticky;
 }
 
-.accordion-flush {
+.container__home .accordion-flush {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,29 +151,28 @@ body {
     padding: 0;
 }
 
-.accordion-body {
+.container__home .accordion-body {
     background: rgb(255, 255, 255);
 }
 
-.accordion .accordion-item .accordion-button:hover {
+.container__home .accordion .accordion-item .accordion-button:hover {
     color: white;
 }
 
-.accordion .accordion-body p {
+.container__home .accordion .accordion-body p {
   font-family: 'dx-rigraf';
   color: purple;
   font-size: 1rem;
 }
 
-.accordion-button:focus,
-.accordion-button:active {
+.container__home .accordion-button:focus,
+.container__home .accordion-button:active {
     box-shadow: none;
     outline: none;
 }
 
-
 /* Titre section sticky */
-.titre__section {
+.container__home .titre__section {
   font-family: 'dx-rigraf';
   font-size: 70px;
   -webkit-text-stroke: 3px rgb(0, 0, 0);
@@ -184,19 +181,19 @@ body {
   transform: rotate(-90deg);
 }
 
-.titre__projets {
+.container__home .titre__projets {
 top: 97px;
 left: -115px;
 }
-.titre__ressources{
+.container__home .titre__ressources{
   top: 160px;
   left: -179px;
 }
-.titre__apropos {
+.container__home .titre__apropos {
   top: 68px;
   left: -147px;
 }
-.titre__formation {
+.container__home .titre__formation {
   top: 98px;
   left: -180px;
 }
@@ -204,54 +201,52 @@ left: -115px;
 
 /* Bouton croix accordion */
 @media screen and (max-width: 992px) {
-  .close__section .bi
-  .close__section .bi:before {
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
+   .container__home .close__section .bi {
+    font-size: 30px !important;
+    /* width: 30px;
+    height: 30px; */
   }
 }
 
-.close__section svg {
+.container__home .close__section svg {
   cursor: none;
   width: 50px;
   height: 50px;
 }
 
-.close__section .bi{
+ .container__home .close__section .bi{
   font-size: 50px;
 }
 
-.close__section .bi:before{
+ .container__home .close__section .bi:before{
   display: block;
 }
-.close__section .bi-x-circle-fill {
+ .container__home .close__section .bi-x-circle-fill {
   display: none; 
 }
 
-.close__section:hover .bi-x-circle-fill {
+ .container__home .close__section:hover .bi-x-circle-fill {
   display: block; 
 }
-.close__section:hover .bi-x-circle {
+ .container__home .close__section:hover .bi-x-circle {
   display: none; 
 }
 
 /* Bouton croix accordion */
 
 
-
 /* Media screen titre sticky */
 @media screen and (max-width: 992px) {
-  .accordion .accordion-body .container__sticky {
+  .container__home .accordion  .accordion-body .container__sticky {
     margin: 0 0 0 auto !important;
   }
-  .accordion .accordion-body .container__sticky .titre__section {
+  .container__home .accordion  .accordion-body .container__sticky .titre__section {
     left: -50px !important;
   }
 }
 
 @media screen and (max-width: 1400px) {
-  .accordion .accordion-body .container__sticky .titre__section {
+  .container__home .accordion .accordion-body .container__sticky .titre__section {
     left: -50px !important;
   }
 }
