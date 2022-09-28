@@ -1,0 +1,105 @@
+
+.page__logiciel .h1__title{
+    font-family: DXRigraf;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #0B0B0C;
+    -webkit-text-stroke: 1px white;
+    border: 120;
+}
+
+.page__logiciel hr.solid{
+    border-top: 2px solid #fff;
+}
+
+.page__logiciel .h1__margins{
+    margin: 128px 0 96px;  
+}
+
+.page__logiciel h4 {
+    font-size: 32px;
+}
+.page__logiciel h3 {
+    font-size: 40px;
+}
+.page__logiciel h2 {
+    font-size: 14px;
+}
+
+.page__logiciel .accordion-body {
+    font-family: BLMelody;
+    font-size: 14px;
+    color: white;
+    background-color: #0B0B0C;
+    margin: 15px 62px 0px 62px;
+    padding: 0px;
+}
+
+
+.page__logiciel button.accordion-button {
+    color: white;
+    background-color: #0B0B0C;
+    font-size: 40px;
+    padding: 0px;
+}
+
+
+.page__logiciel button.accordion-button.collapsed {
+    color: white;
+    background-color: #0B0B0C;
+    margin: 0px;
+}
+
+
+.page__logiciel .accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.page__logiciel .accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+.page__logiciel .accordion-item {
+    color: #0B0B0C;
+    background-color: #0B0B0C;
+}
+
+
+.page__logiciel .col.offset-md-1.col-xs-12{
+margin-bottom: 80px;
+}
+
+
+.page__logiciel .accordion-button:not(.collapsed) {
+background-color: #0B0B0C;
+}
+
+
+.page__logiciel .accordion-button:not(.collapsed) {
+    color: white;
+}
+
+
+.page__logiciel img {
+    margin: 0px 30px 0px 0px;
+}
+
+
+.page__logiciel hr {
+    border-top:2px dotted #0B0B0C;
+    margin: 15px 0px 15px 0px;
+}
+.page__logiciel a {
+    margin: 0px 10px 10px 0px;
+    font-family: BLMelody;
+    font-size: 14px;
+    color: antiquewhite;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+    .page__logiciel .h1__title{
+        font-size: 44px;
+    }
+}
