@@ -1,6 +1,6 @@
 @font-face {
-    font-family: BLMelody;
-    src: url('../fonts/BLMelody-Regular.woff2') format("woff2") ;
+    font-family:TangoSans;
+    src: url('../fonts/TangoSans.woff2') format("woff2") ;
 }
 
 
@@ -62,7 +62,7 @@ body{
 
 h4 {
     color: white;
-    font-family: BLMelody;
+    font-family:TangoSans;
     font-size: 32px;
     white-space: nowrap
 }
@@ -152,4 +152,15 @@ h4 {
             white-space: nowrap;
         }    
     }
+
+    #scroll_to_top {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 50px;
+        right: 100px;
+      }
+      #scroll_to_top img {
+        width: 60px;
+      }
     
