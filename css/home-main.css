@@ -11,7 +11,7 @@ body {
     height: auto !important;
 }
 
-.container__home .accordion .accordion-item {
+.container__home .accordion.accordion__home .accordion-item {
     background: transparent;
     width: 100%;
 }
@@ -21,7 +21,7 @@ body {
     background: transparent;
 }
 
-.container__home .accordion .accordion-item .accordion-button {
+.container__home .accordion.accordion__home .accordion-item .accordion-button {
   font-family: 'dx-rigraf';
   -webkit-text-stroke: 2px white;
   font-size: 120px;
@@ -33,14 +33,14 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
-    .container__home .accordion .accordion-item .accordion-button {
+    .container__home .accordion.accordion__home .accordion-item .accordion-button {
         font-size: 80px;
         padding: 0 0 0 7rem;
     }
 }
 
 @media screen and (max-width: 1024px) {
-  .container__home .accordion .accordion-item .accordion-button {
+  .container__home .accordion.accordion__home .accordion-item .accordion-button {
         font-size: 50px;
         padding: 0.6em 0 0 4rem;
     }
@@ -50,14 +50,14 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .container__home .accordion .accordion-item .accordion-button {
+    .container__home .accordion.accordion__home .accordion-item .accordion-button {
         font-size: 36px;
         padding: 0.6em 0 0 1rem;
         -webkit-text-stroke: 1px white;
     }
 }
 
-.container__home .accordion .accordion-item .accordion-button:after {
+.container__home .accordion.accordion__home .accordion-item .accordion-button:after {
     content: none;
 }
 
@@ -78,11 +78,11 @@ body {
     background: rgb(255, 255, 255);
 }
 
-.container__home .accordion .accordion-item .accordion-button:hover {
+.container__home .accordion.accordion__home .accordion-item .accordion-button:hover {
     color: white;
 }
 
-.container__home .accordion .accordion-body p {
+.container__home .accordion.accordion__home .accordion-body p {
   font-family: 'dx-rigraf';
   color: purple;
   font-size: 1rem;
@@ -160,16 +160,16 @@ left: -115px;
 
 /* Media screen titre sticky */
 @media screen and (max-width: 992px) {
-  .container__home .accordion  .accordion-body .container__sticky {
+  .container__home .accordion.accordion__home  .accordion-body .container__sticky {
     margin: 0 0 0 auto !important;
   }
-  .container__home .accordion  .accordion-body .container__sticky .titre__section {
+  .container__home .accordion.accordion__home  .accordion-body .container__sticky .titre__section {
     left: -50px !important;
   }
 }
 
 @media screen and (max-width: 1400px) {
-  .container__home .accordion .accordion-body .container__sticky .titre__section {
+  .container__home .accordion.accordion__home .accordion-body .container__sticky .titre__section {
     left: -50px !important;
   }
 }
