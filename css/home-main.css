@@ -83,8 +83,8 @@ body {
 }
 
 .container__home .accordion.accordion__home .accordion-body p {
-    font-family: 'dx-rigraf';
-    color: purple;
+    /* font-family: 'dx-rigraf';
+    color: purple; */
     font-size: 1rem;
 }
 

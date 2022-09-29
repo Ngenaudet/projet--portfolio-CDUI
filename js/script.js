@@ -52,7 +52,7 @@ $(document).ready(function() {
 
     $('.accordion-button').on('click', (e) => {
         e.stopPropagation();
-        let idSection = $(e.target).closest('.accordion-item-home').find('.accordion-body');
+        let idSection = $(e.target).closest('.accordion-item-home').find('.accordion-body-home');
 
         $([document.documentElement, document.body]).animate({
             scrollTop: $(idSection).offset().top,
