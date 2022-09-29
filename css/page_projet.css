@@ -125,6 +125,8 @@ body {
 }
 .container__projets .card .front{
     background-color: rgba(0,0,0,.5);
+	transition: all .3s ease;
+	transition-delay: 2s;
 }
 
 .container__projets .card .back {
@@ -149,6 +151,11 @@ body {
 	transform: rotateY(175deg);
 	border: #939393 1px solid;
 }
+
+.container__projets label input:checked + .card .front{
+	opacity: 0;
+}	
+
 
 .container__projets .front h1 {
 	font-size: 30px;
