@@ -21,6 +21,11 @@
 	--blueWPTxt: #1E8CBE;
 	--orangeHTMLTxt: #F16529;
 	--blueCSSTxt: #2965F1;
+	--greysubTxt: #939393;
+}
+
+.container__projets span.greysub{
+	color:var(--greysubTxt);
 }
 
 .container__projets span.pinkXD{
@@ -183,9 +188,8 @@ body {
 }
 
 .container__projets .back h1 {
-    -webkit-text-stroke: 0.5px white;
 	font-size: 20px;
-    color: transparent;
+    color: white;
     font-family: dx-rigraf;
 	margin: 30px 0 0 0;
 }
@@ -198,23 +202,17 @@ body {
 .container__projets .back p {
 	font-size: 14px;
 	color: #fff;
-	padding: 25px;
+	padding: 15px 25px 15px 25px;
 	line-height: 1rem;
 	padding: auto;
 	text-align: center;
 	margin: 0;
 }
 
-.container__projets .back p1 {
-	font-size: 12px;
-	color: #939393;
-	line-height: 1rem;
-	text-align: center;
-	margin: 0;
-}
 
 .container__projets .btn {
 	margin : 15px 15px;
+	border: none;
 }
 
 .container__projets .row + .row {
