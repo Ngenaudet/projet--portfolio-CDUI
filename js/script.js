@@ -49,7 +49,7 @@ $(document).ready(function () {
     $(this).closest(".row").toggleClass("h-0");
   });
 
-  $(".accordion-button").on("click", (e) => {
+  $(".accordion-button-home").on("click", (e) => {
     e.stopPropagation();
     let idSection = $(e.target)
       .closest(".accordion-item-home")
