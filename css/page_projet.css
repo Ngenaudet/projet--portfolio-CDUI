@@ -5,32 +5,59 @@
     font-display: swap;
 }
 
- @font-face {
+@font-face {
     font-family: BLMelody;
     src: url('../fonts/BLMelody-Regular.woff2') format("woff2") ;
 }
 
 :root{
 
-	--redTxt: #ff0000;
-	--redTxt: #00FFFF;
-	--redTxt: #00FFFF;
-	--redTxt: #00FFFF;
+	--pinkXDTxt: #ED6DF0;
+	--orangeAiTxt: #F79500;
+	--pinkIdTxt: #FF3366;
+	--purpleAETxt: #9999FF;
+	--greenFTxt: #0ACF83;
+	--bluePsTxt: #31A8FF;
+	--blueWPTxt: #1E8CBE;
+	--orangeHTMLTxt: #F16529;
+	--blueCSSTxt: #2965F1;
 }
 
-.container__projets span.red{
-	color:var(--redTxt);
-}
-.container__projets span.red{
-	color:var(--redTxt);
-}
-.container__projets span.red{
-	color:var(--redTxt);
-}
-.container__projets span.red{
-	color:var(--redTxt);
+.container__projets span.pinkXD{
+	color:var(--pinkXDTxt);
 }
 
+.container__projets span.orangeAi{
+	color:var(--orangeAiTxt);
+}
+
+.container__projets span.pinkId{
+	color:var(--pinkIdTxt);
+}
+
+.container__projets span.purpleAE{
+	color:var(--purpleAETxt);
+}
+
+.container__projets span.greenF{
+	color:var(--greenFTxt);
+}
+
+.container__projets span.bluePs{
+	color:var(--bluePsTxt);
+}
+
+.container__projets span.blueWP{
+	color:var(--blueWPTxt);
+}
+
+.container__projets span.orangeHTML{
+	color:var(--orangeHTMLTxt);
+}
+
+.container__projets span.blueCSS{
+	color:var(--blueCSSTxt);
+}
 
 body {
     background-color: #0B0B0C;
@@ -53,7 +80,7 @@ body {
     max-width: 18rem;
     height: 296px;
     --bs-card-bg: transparent; 
-    --bs-card-border-width : 0px;
+    --bs-card-border-width: 0px;
     cursor: pointer;
     border-radius: 20px;    
     transition: transform 0.3s ease; 
@@ -109,7 +136,6 @@ body {
 
 .container__projets label:hover .card {
 	transform: rotateY(2deg);
-	box-shadow: 0 20px 20px rgba(50, 60, 60, 0.2);
 }
 
 .container__projets input {
@@ -121,7 +147,7 @@ body {
 }
 .container__projets label :checked + .card {
 	transform: rotateY(175deg);
-	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+	border: #939393 1px solid;
 }
 
 .container__projets .front h1 {
@@ -181,7 +207,7 @@ body {
 }
 
 .container__projets .btn {
-	margin : 25px 15px;
+	margin : 15px 15px;
 }
 
 .container__projets .row + .row {
