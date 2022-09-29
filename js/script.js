@@ -59,7 +59,7 @@ $(document).ready(function () {
       {
         scrollTop: $(idSection).offset().top,
       },
-      800
+      200
     );
   });
 

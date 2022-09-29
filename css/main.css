@@ -84,3 +84,18 @@
   box-shadow: none;
   outline: none;
 }
+
+.container__home .accordion.accordion__home .accordion-item-home{
+  border: none;
+}
+
+.container__home .accordion-body {
+  background-color: #0b0b0c;
+  z-index: 200;
+  position: relative;
+  padding: 60px 0;
+}
+
+.accordion-item{
+  border: none;
+}
