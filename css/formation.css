@@ -69,6 +69,10 @@ p{
     font-size: 20px;
 }
 
+.accordion-button__formation:focus {
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+
 .rectangle__arrondi{
     border: 1px solid white;
     border-radius: 20px;
