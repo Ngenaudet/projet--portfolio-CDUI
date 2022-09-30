@@ -1,38 +1,3 @@
-/* @font-face {
-    font-family:TangoSans;
-    src: url('../fonts/TangoSans.woff2') format("woff2") ;
-} */
-
-@font-face {
-  font-family: DXRigraf;
-  src: url("../fonts/DXRigraf-SemiBoldExpanded.woff2") format("woff2");
-  font-style: normal;
-  font-display: swap;
-}
-
-/* @include media-breakpoint-up(md) { 
-    h4 {
-        color: white;
-        font-family: BLMelody;
-        font-size: 16px;
-    }
-    
-    .bi-file-earmark-pdf { 
-        fill: #F70000;
-        width: 16px;
-        height: 16px;
-    }
-    
-    .h1__title{
-        font-family: DXRigraf;
-        font-size: 40px;
-        text-transform: uppercase;
-        color: #000000;
-        -webkit-text-stroke: 1px white;    
-    }
-    
-} */
-
 :root {
   --bs-body-bg: #0b0b0c !important;
 }
@@ -42,7 +7,7 @@ body {
 }
 
 .h1__title {
-  font-family: DXRigraf;
+  font-family: dx-rigraf;
   font-size: 120px;
   text-transform: uppercase;
   color: #0b0b0c;
@@ -164,4 +129,8 @@ h4 {
 }
 #scroll_to_top img {
   width: 60px;
+}
+
+.expose {
+  size: 100vh;
 }

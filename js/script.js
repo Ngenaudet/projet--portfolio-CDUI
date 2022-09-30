@@ -59,11 +59,36 @@ $(document).ready(function () {
       {
         scrollTop: $(idSection).offset().top,
       },
-      200
+      800
     );
   });
 
   $(".close__section").on("click", function () {
     $(".collapse").collapse("hide");
+  });
+
+  let scrollTop = $(".scroll__top");
+
+  $(window).scroll(function () {
+    // si l accordeon est ouvert
+    if ($(".accordion-collapse").hasClass("show")) {
+      if ($(this).scrollTop() > 800) {
+        $(scrollTop).fadeIn();
+      } else {
+        $(scrollTop).fadeOut();
+      }
+    } else {
+      $(scrollTop).fadeOut();
+    }
+  });
+
+  $(scrollTop).click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      150
+    );
+    return false;
   });
 });

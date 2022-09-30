@@ -1,5 +1,5 @@
 .page__logiciel .h1__title {
-  font-family: DXRigraf;
+  font-family: dx-rigraf;
   font-size: 120px;
   text-transform: uppercase;
   color: #0b0b0c;
@@ -24,7 +24,7 @@
 }
 
 .page__logiciel .accordion-body {
-  font-family: BLMelody;
+  font-family: creato-md;
   font-size: 14px;
   color: white;
   background-color: transparent;
@@ -85,7 +85,7 @@
 
 .page__logiciel a {
   margin: 0px 10px 10px 0px;
-  font-family: BLMelody;
+  font-family: creato-md;
   font-size: 14px;
   color: antiquewhite;
   white-space: nowrap;

@@ -28,7 +28,7 @@
   z-index: 200;
 }
 
-.noise {
+/* .noise {
   position: fixed;
   inset: 0;
   z-index: 100;
@@ -36,6 +36,58 @@
   background: url("../images/noise.png") repeat center center;
   opacity: 0.3;
   visibility: visible;
+} */
+
+.noise {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent
+    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation 0.2s infinite;
+  opacity: 0.9;
+  visibility: visible;
+}
+
+@keyframes bg-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5%, -5%);
+  }
+  20% {
+    transform: translate(-10%, 5%);
+  }
+  30% {
+    transform: translate(5%, -10%);
+  }
+  40% {
+    transform: translate(-5%, 15%);
+  }
+  50% {
+    transform: translate(-10%, 5%);
+  }
+  60% {
+    transform: translate(15%, 0);
+  }
+  70% {
+    transform: translate(0, 10%);
+  }
+  80% {
+    transform: translate(-15%, 0);
+  }
+  90% {
+    transform: translate(10%, 5%);
+  }
+  100% {
+    transform: translate(5%, 0);
+  }
 }
 
 /* Curseur Rond */
@@ -85,7 +137,7 @@
   outline: none;
 }
 
-.container__home .accordion.accordion__home .accordion-item-home{
+.container__home .accordion.accordion__home .accordion-item-home {
   border: none;
 }
 
@@ -96,6 +148,6 @@
   padding: 60px 0;
 }
 
-.accordion-item{
+.accordion-item {
   border: none;
 }
