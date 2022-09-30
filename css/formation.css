@@ -31,22 +31,26 @@ h1{
 
 h2{
     font-family: dx-rigraf;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 p{
-    font-size: 32px;
+    font-size: 20px;
     font-family: MADE_TOMMY;
 }
 
-.accordion-header__formation{
+.m-4{
+    font-size: 24px;
+}
+
+.accordion-button__formation{
     font-family: MADE_TOMMY !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 
 .accordion-body__formation{    
     font-family: MADE_TOMMY;
-    font-size: 20px;
+    font-size: 16px;
     color: #939393;
 }
 
@@ -69,8 +73,21 @@ p{
     font-size: 20px;
 }
 
+.accordion .accordion-item:first-child  .accordion-button__formation 
+{
+    border-top: 1px solid ;
+}
+.accordion .accordion-item:last-child  .accordion-button__formation 
+{
+    border-bottom: 1px solid ;
+}
+
+
+
 .accordion-button__formation:focus {
-    box-shadow: 0 0 0 0.25rem transparent !important;
+    /* box-shadow: 0 0 0 0.25rem transparent !important; */
+    outline: none;
+    box-shadow: none;
 }
 
 .rectangle__arrondi{
