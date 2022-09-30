@@ -1,15 +1,10 @@
-@font-face {
-    font-family: DXRigraf;
-    src: url("../fonts/DXRigraf-SemiBoldExpanded.woff2") format("woff2");
-    font-style: normal;
-    font-display: swap;
-}
 .a-propos__h1 {
     font-size: 40px;
     -webkit-text-stroke: 1px white;
     color: transparent;
-    font-family: dx-rigraf;
+    font-family: 'dx-rigraf', sans-serif;
 }
+
 .a-propos__h1,
 .a-propos__p {
     margin: 20px 50px 20px 50px;
@@ -20,6 +15,7 @@
         font-size: 120px;
     }
 }
+
 
 /* .a-propos {
     background-color: #0b0b0c;
@@ -54,6 +50,7 @@
     height: 100%;
     transition: 0.9s ease;
 }
+
 .a-propos__card--imgContainer {
     position: absolute;
     top: 0;
@@ -70,7 +67,7 @@
     margin: 15px 0 0 15px;
     width: 100px;
     font-size: 28px;
-    font-family: "BL Melody";
+    font-family: "creato-md";
 }
 
 .a-propos__cards--nico {
@@ -81,6 +78,10 @@
 .a-propos__cards--h2,
 .a-propos__card--a {
     color: #0b0b0c;
+}
+
+#flush-collapseThree .a-propos .h4 {
+    font-size: 24px;
 }
 
 .a-propos__card--img {
@@ -130,6 +131,7 @@
     transition: all 1s cubic-bezier(0.3, -0.5, 0.3, 1.5);
     transform: rotateY(180deg);
 }
+
 .a-propos__cards--body.animateContent .a-propos__cards--name,
 .a-propos__cards--body.animateContent .a-propos__cards--sns {
     opacity: 0;
