@@ -1,0 +1,44 @@
+body
+{
+background-color: #0b0b0c;
+}
+@font-face 
+{     
+    font-family: DXRigraf;
+    src: url("../fonts/DXRigraf-SemiBoldExpanded.woff") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}  
+.h1
+{     
+    font-family: DXRigraf;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #0B0B0C;
+    -webkit-text-stroke: 1px white;
+}  
+body {font-size: 100%}
+
+.h1 {font-size: 3em;}
+
+@media screen and (max-width: 78em) {
+.h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 64em) { 
+.h1{   
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 50em){
+.h1 {
+    font-size: 1.5em;
+  }
+}
+
+img{
+    width: 100%;
+}
