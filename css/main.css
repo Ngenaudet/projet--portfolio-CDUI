@@ -151,3 +151,15 @@
 .accordion-item {
   border: none;
 }
+
+.p-0.arrow__sticky {
+  margin: 0 37px 0 auto !important;
+  top: 25px;
+}
+
+.scroll__top {
+  z-index: 9999;
+  right: 4%;
+  bottom: 2%;
+  display: none;
+}
