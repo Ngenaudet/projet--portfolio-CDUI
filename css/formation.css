@@ -1,3 +1,7 @@
+#accordion__formation .accordion-body__formation {
+    background-color: #101010;
+}
+
 .container__formation h1 {
     font-family: dx-rigraf;
     font-size: 120px;
@@ -39,7 +43,6 @@
 .container__formation .accordion-item__formation {
     background-color: #0B0B0C;
     border-color: white;
-    /* border: 1pxsolidrgba(0,0,0,.125); inutile apparement */
 }
 
 .container__formation .accordion-button__formation {

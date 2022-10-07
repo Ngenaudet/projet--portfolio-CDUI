@@ -1,0 +1,147 @@
+ @media screen and (max-width: 986px) {
+     .card {
+         padding-top: 20px;
+     }
+     .card__liens-utiles .card-body__liens-utiles {
+         bottom: 0;
+     }
+     h3.h1 {
+         font-size: 60px;
+     }
+     .liens-utiles {
+         position: absolute;
+         top: 50%;
+         right: 10%;
+         bottom: 0;
+         transform: translate(0, -50%);
+         color: grey;
+         font-size: 10px;
+     }
+     p.liens-utiles {
+         display: none !important;
+     }
+     h3.h1+p {
+         font-size: 14px;
+     }
+ }
+ 
+ .h1 {
+     font-family: 'DX-Rigraf';
+     font-size: 120px;
+     text-transform: uppercase;
+     color: #0B0B0C;
+     -webkit-text-stroke: 1px white;
+ }
+ 
+ .title {
+     border-top: 1px solid white;
+ }
+ 
+ .liens-utiles {
+     position: absolute;
+     top: 50%;
+     right: 5%;
+     bottom: 0;
+     transform: translate(0, -50%);
+     color: grey
+ }
+ 
+ h3+p {
+     font-family: 'poppins';
+     font-size: 20px;
+     color: white;
+     padding-bottom: 30px;
+ }
+ 
+ .accordion-body .accordion-body__liens-utiles {
+     font-size: 16px;
+     color: #939393;
+ }
+ 
+ .accordion-button:not(.collapsed) {
+     box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.13);
+     color: white;
+     background-color: #0B0B0C;
+     box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.13);
+ }
+ 
+ .accordion-button:focus,
+ .accordion-button:active {
+     outline: none !important;
+     box-shadow: none;
+ }
+ 
+ hr.solid {
+     border-top: 2px solid white;
+     opacity: 100%;
+ }
+ 
+ .accordion-item__liens-utiles {
+     background-color: #0B0B0C;
+     border-color: white;
+     border: 1px solid rgba(0, 0, 0, .125);
+ }
+ 
+ .accordion-button {
+     color: #ffffff;
+     background-color: #0b0b0c;
+     font-size: 25px;
+ }
+ 
+ .accordion-button:not(.collapsed)::after {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+ }
+ 
+ .accordion-button::after {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+ }
+ 
+ .card__liens-utiles {
+     max-width: 18rem;
+     height: 268px;
+     --bs-card-bg: transparent;
+     --bs-card-border-width: 0px;
+     border-radius: 20px !important;
+     overflow: hidden;
+ }
+ 
+ .card-body__liens-utiles {
+     position: absolute;
+     bottom: -200px;
+     background-color: rgba(0, 0, 0, 0.80);
+     color: white;
+     text-align: center;
+     min-height: 119.8px;
+     transition: all .4s ease;
+ }
+ 
+ .card:hover .card-body__liens-utiles {
+     bottom: 0;
+ }
+ 
+ .card-title {
+     font-size: 14px;
+     color: white
+ }
+ 
+ .card-text {
+     font-size: 14px;
+ }
+ 
+ .card-img-top {
+     object-fit: cover;
+     height: 100%;
+     border-radius: 20px;
+ }
+ 
+ .accordion-flush .accordion-item .accordion-button,
+ .accordion-flush .accordion-item .accordion-button.collapsed {
+     border-radius: 0;
+     border: none;
+     outline: none;
+     box-shadow: none;
+ }
+ 
+ .first__title {
+     border-top: none;
+ }
