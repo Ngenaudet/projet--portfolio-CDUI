@@ -1,0 +1,139 @@
+.a-propos__h1 {
+  font-size: 40px;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  font-family: "dx-rigraf", sans-serif;
+}
+
+.a-propos__h1,
+.a-propos__p {
+  margin: 20px 50px 20px 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .a-propos__h1 {
+    font-size: 120px;
+  }
+}
+
+.a-propos__cards,
+.a-propos__cards .box,
+.a-propos__cards--body,
+.a-propos__card--back,
+.a-propos__card--boxBack {
+  transform-style: preserve-3d;
+}
+
+.a-propos__cards .box {
+  position: relative;
+  width: 300px;
+  height: 375px;
+  margin: 20px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.a-propos__cards--body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.9s ease;
+}
+
+.a-propos__card--imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.a-propos__cards--h2 {
+  margin: 15px 0 0 15px;
+  width: 100px;
+  font-size: 28px;
+  font-family: "creato-md";
+}
+
+.a-propos__cards--nico {
+  font-size: 20px;
+  color: rgb(49, 49, 49);
+}
+
+.a-propos__cards--h2,
+.a-propos__card--a {
+  color: #0b0b0c;
+}
+
+#flush-collapseThree .a-propos .h4 {
+  font-size: 24px;
+}
+
+.a-propos__card--img {
+  object-fit: cover;
+}
+
+.a-propos__card--back {
+  background-image: url("../images/apropos-img/back.jpg");
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.a-propos__card--back,
+.a-propos__card--img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.a-propos__card--boxBack {
+  background-color: #0b0b0c;
+  opacity: 60%;
+  padding: 30px;
+  width: 80%;
+  height: 70%;
+  transform: translateZ(100px);
+}
+
+.a-propos__card--back,
+.a-propos__card--boxBack,
+.a-propos__card--img {
+  border-radius: 20px;
+}
+
+.a-propos__cards--name,
+.a-propos__cards--sns {
+  position: relative;
+  z-index: 1;
+  height: 140px;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.a-propos__cards--body.animateContent {
+  transition: all 1s cubic-bezier(0.3, -0.5, 0.3, 1.5);
+  transform: rotateY(180deg);
+}
+
+.a-propos__cards--body.animateContent .a-propos__cards--name,
+.a-propos__cards--body.animateContent .a-propos__cards--sns {
+  opacity: 0;
+}
+
+.a-propos__cards--sns {
+  margin: 15px 15px 0 0;
+}
+.bi-github {
+  font-size: 35px;
+}
+
+.bi-behance {
+  font-size: 35px;
+}
+.bi-linkedin {
+  font-size: 35px;
+}

@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "dx-rigraf";
+    src: url("../fonts/DXRigraf-SemiBoldExpanded.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "creato-md";
+    src: url("../fonts/CreatoDisplay-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    cursor: none;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --bs-body-bg: #0b0b0c;
+}
+
+body {
+    overflow: hidden;
+}
+
+.bg-dark {
+    background: #0b0b0c !important;
+    position: relative;
+    z-index: 200;
+}
+
+
+/* .noise {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  background: url("../images/noise.png") repeat center center;
+  opacity: 0.3;
+  visibility: visible;
+} */
+
+.noise {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation 0.2s infinite;
+    opacity: 0.9;
+    visibility: visible;
+}
+
+@keyframes bg-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(-5%, -5%);
+    }
+    20% {
+        transform: translate(-10%, 5%);
+    }
+    30% {
+        transform: translate(5%, -10%);
+    }
+    40% {
+        transform: translate(-5%, 15%);
+    }
+    50% {
+        transform: translate(-10%, 5%);
+    }
+    60% {
+        transform: translate(15%, 0);
+    }
+    70% {
+        transform: translate(0, 10%);
+    }
+    80% {
+        transform: translate(-15%, 0);
+    }
+    90% {
+        transform: translate(10%, 5%);
+    }
+    100% {
+        transform: translate(5%, 0);
+    }
+}
+
+
+/* Curseur Rond */
+
+.cursor {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    z-index: 9999;
+    mix-blend-mode: difference;
+}
+
+.cursor2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    /* opacity: .3; */
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    z-index: 9999;
+    mix-blend-mode: difference;
+}
+
+.hover {
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.cursorinnerhover {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.container__home .accordion.accordion__home .accordion-item-home {
+    border: none;
+}
+
+.container__home .accordion-body-home {
+    background-color: #0b0b0c;
+    z-index: 200;
+    position: relative;
+    padding: 60px 0;
+    height: 100vh;
+    overflow: auto;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.p-0.arrow__sticky {
+    margin: 0 37px 0 auto !important;
+    top: 25px;
+}
+
+.scroll__top {
+    z-index: 9999;
+    right: 4%;
+    bottom: 2%;
+    display: none;
+}
+
+.content_to_load .container{
+    margin-top: 50px;
+}
