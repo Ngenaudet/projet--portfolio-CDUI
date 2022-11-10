@@ -145,3 +145,7 @@
  .first__title {
      border-top: none;
  }
+
+ .accordion-collapse > article{
+    margin: 30px 0;
+ }

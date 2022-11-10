@@ -41,8 +41,6 @@ $(document).ready(function() {
     //     stopLoader();
     // }, "3000")
 
-    // changeLottieOnHover();
-
     let accordion_items = $(".accordion-item");
 
     accordion_items.on("click", function(e) {
@@ -97,12 +95,9 @@ $(document).ready(function() {
     btn__choices.on('click', function(e) {
         e.preventDefault();
         let currentSection = $(this).attr('data-section');
-        console.log(currentSection);
 
         $('.content_to_load').hide();
         $('.' + currentSection).show();
-
     });
-
 
 });

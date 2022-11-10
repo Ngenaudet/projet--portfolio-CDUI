@@ -170,3 +170,7 @@ body {
     bottom: 2%;
     display: none;
 }
+
+.content_to_load .container{
+    margin-top: 50px;
+}
