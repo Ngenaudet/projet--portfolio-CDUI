@@ -4,7 +4,7 @@ Dans le cadre du développement d'un Portfolio de professionnel du Web, le besoi
 
 Veille IT 
 
-Les prints du lundi
+Les prints du lundi <br/>
 Le catalogue kickstart
 Buzzman, grapheine, mnstr
 LinkedIn
