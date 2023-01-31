@@ -5,33 +5,34 @@ Dans le cadre du développement d'un Portfolio de professionnel du Web, le besoi
 Veille IT 
 
 Les prints du lundi <br/>
-Le catalogue kickstart
-Buzzman, grapheine, mnstr
-LinkedIn
-Behance
-Dribbble
-Uplabs
-Awwwards
-Godly.website
-Frame.io
-Picular, coolors, Adobe coulor, Pantone
-Noun project
-Burst, unsplash, pexel, mixkit vidéo
-Allthefreestock
-Ui goodies
-Design system
-checklist.design
-Figma
-Webflow
-Airpods
-Lottie
-Notion
-Glide app
-Fyuse (image 3D)
-Spline, Vectary
-Fontpairing by people
-Codrops
-WhatTheFont!
-Contournement
-Medium
-Product hunt
+Le catalogue kickstart<br/>
+Buzzman, grapheine, mnstr<br/>
+LinkedIn<br/>
+Behance<br/>
+Dribbble<br/>
+Uplabs<br/>
+Awwwards<br/>
+Godly.website<br/>
+Frame.io<br/>
+Picular, coolors, Adobe coulor, Pantone<br/>
+Noun project<br/>
+Burst, unsplash, pexel, mixkit vidéo<br/>
+Allthefreestock<br/>
+Ui goodies<br/>
+Design system<br/>
+checklist.design<br/>
+Figma<br/>
+Webflow<br/>
+Airpods<br/>
+Lottie<br/>
+Notion<br/>
+Glide app<br/>
+Fyuse (image 3D)<br/>
+Spline, Vectary<br/>
+Fontpairing by people<br/>
+Codrops<br/>
+WhatTheFont!<br/>
+Contournement<br/>
+Medium<br/>
+Product hunt<br/>
+muzli ext chrome
