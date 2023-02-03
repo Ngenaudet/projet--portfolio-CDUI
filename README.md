@@ -35,4 +35,14 @@ WhatTheFont!<br/>
 Contournement<br/>
 Medium<br/>
 Product hunt<br/>
-muzli ext chrome
+muzli ext chrome <br/>
+https://thecacatoestheory.com/ <br/>
+https://www.uplabs.com/<br/>
+https://www.vectary.com/<br/>
+https://spline.design/ <br/>
+https://uigoodies.com/index.html
+picular <br/>
+https://picular.co/ <br/>
+https://thenounproject.com/ <br/>
+https://www.codecademy.com/ <br/>
+https://gumroad.com/discover <br/>
