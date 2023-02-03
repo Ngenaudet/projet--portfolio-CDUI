@@ -11,38 +11,54 @@ LinkedIn<br/>
 Behance<br/>
 Dribbble<br/>
 Uplabs<br/>
-Awwwards<br/>
-Godly.website<br/>
-Frame.io<br/>
-Picular, coolors, Adobe coulor, Pantone<br/>
-Noun project<br/>
+Exemple de site : Awwwards ---- Godly.website<br/>
+site immersif : il faut scenariser l expérience utilisateur sur un site comme -> Frame.io<br/>
+Picular, coolors, Adobe coulor, Pantone, happy Hue<br/>
+Noun project : base picto, base de creation d un logo, piste pour un logo <br/>
 Burst, unsplash, pexel, mixkit vidéo<br/>
-Allthefreestock<br/>
+kit UI: https://ui8.net/ <br/>
+site de curation / ressources +++ : Allthefreestock<br/>
 Ui goodies<br/>
 Design system<br/>
 checklist.design<br/>
 Figma<br/>
-Webflow<br/>
-Airpods<br/>
-Lottie<br/>
-Notion<br/>
+Webflow  -> Airpods<br/>
+Lottie Airbnb<br/>
+Notion :  <br/>
 Glide app<br/>
 Fyuse (image 3D)<br/>
-Spline, Vectary<br/>
-Fontpairing by people<br/>
-Codrops<br/>
+Crea 3D : Spline, Vectary<br/>
+assemblage de font : Fontpairing by people<br/>
+Ressources de code : Codrops<br/>
 WhatTheFont!<br/>
 Contournement<br/>
-Medium<br/>
-Product hunt<br/>
-muzli ext chrome <br/>
+Veille technique : Product hunt<br/>
+homepage de chrome : muzli ext chrome <br/>
+agence créative:  https://buzzman.eu/fr <br/>
+wording, branding : https://www.grapheine.com/ <br/>
+agence wordl wide : https://www.pentagram.com/ <br/>
 https://thecacatoestheory.com/ <br/>
 https://www.uplabs.com/<br/>
 https://www.vectary.com/<br/>
 https://spline.design/ <br/>
-https://uigoodies.com/index.html
-picular <br/>
-https://picular.co/ <br/>
+Ressources d éléments : https://uigoodies.com/index.html
+trouver les couleurs d un domaine d activité : https://picular.co/ <br/>
 https://thenounproject.com/ <br/>
 https://www.codecademy.com/ <br/>
 https://gumroad.com/discover <br/>
+https://marketingexamples.com/ <br/>
+Prinpice de Design à lire et à étudier : https://principles.design/ <br/>
+https://tally.so/  : form for wp <br>
+idée creative : https://www.cfsl.net/poule-de-cristal/# a refaire <br/>
+https://www.todoskills.com/  : soft skills <br/>
+https://ui8.net/ : comme uplaps  ou dribble
+https://uigoodies.com/index.html : enormement de ressources
+ressources medium comme : https://audreyhacq.medium.com/tout-savoir-sur-les-syst%C3%A8mes-de-design-1b6400c9a1b3
+
+GUidelines techiniques: <br/>
+https://www.alsacreations.com/outils/guidelines/ <br/>
+
+Developpement personnel :  <br/> 
+Ikigai à faire https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre / phrase à retenir : "lorsque ça s accélère, je ralentis"
+https://medium.com/tag/les-4-accords-tolt%C3%A8ques
+
