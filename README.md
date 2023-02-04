@@ -1,4 +1,4 @@
-# projet--portfolio-CDUI
+9# projet--portfolio-CDUI
 Dans le cadre du développement d'un Portfolio de professionnel du Web, le besoin porte sur la conception et le développement d'une interface publique « visiteur » permettant de consulter la fiche descriptive des projets publiés. Ce portfolio a vocation à permettre de trouver un stage puis un emploi dans le secteur numérique.
 
 
@@ -47,6 +47,7 @@ https://thenounproject.com/ <br/>
 https://www.codecademy.com/ <br/>
 https://gumroad.com/discover <br/>
 https://marketingexamples.com/ <br/>
+
 Prinpice de Design à lire et à étudier : https://principles.design/ <br/>
 https://tally.so/  : form for wp <br>
 idée creative : https://www.cfsl.net/poule-de-cristal/# a refaire <br/>
@@ -62,3 +63,5 @@ Developpement personnel :  <br/>
 Ikigai à faire https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre / phrase à retenir : "lorsque ça s accélère, je ralentis"
 https://medium.com/tag/les-4-accords-tolt%C3%A8ques
 
+Ressources d outils
+https://www.toools.design/
