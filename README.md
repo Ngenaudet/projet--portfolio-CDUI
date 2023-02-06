@@ -5,6 +5,7 @@ Dans le cadre du développement d'un Portfolio de professionnel du Web, le besoi
 Veille IT 
 
 Les prints du lundi <br/>
+https://cours-bts-communication.fr/cahier-charges-projet-communication/<br/>
 Le catalogue kickstart<br/>
 Buzzman, grapheine, mnstr<br/>
 LinkedIn<br/>
