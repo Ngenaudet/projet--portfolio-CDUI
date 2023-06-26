@@ -4,6 +4,7 @@ Dans le cadre du développement d'un Portfolio de professionnel du Web, le besoi
 
 Veille IT 
 
+https://www.weweb.io/showcase <br>
 Les prints du lundi <br/>
 https://cours-bts-communication.fr/cahier-charges-projet-communication/<br/>
 Le catalogue kickstart<br/>
