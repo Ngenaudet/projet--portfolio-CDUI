@@ -75,3 +75,17 @@ https://invox.fr/premium/
 
 https://caninclude.glitch.me/
 & CanIUse
+
+#DWWM JURY :
+
+Securité : 
+    - https://owasp.org/
+    - https://www.zataz.com/cybersecurite/
+    
+Orthographe : https://bonpatron.com/fr/
+
+SOLID : https://essential-dev-skills.com/poo/principe-solid
+TODOLIST : https://todomvc.com/
+
+
+
