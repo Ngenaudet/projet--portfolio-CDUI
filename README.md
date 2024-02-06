@@ -93,4 +93,7 @@ https://caninclude.glitch.me/
 
 https://app.designerdailyreport.com/index
 
+https://www.youtube.com/@developpeur.muscle
+https://www.youtube.com/@NouvelleTechno
+
 
