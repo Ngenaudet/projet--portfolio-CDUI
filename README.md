@@ -76,6 +76,12 @@ https://caninclude.glitch.me/
 & CanIUse
 
 #DWWM JURY :
+A demander : 
+ - Wireframe  - Responsive - concept MVC - code commentaire - test unitaires - norme de codage - RGPD - CDC - ES6 - concept ajax - fonction php principales - GIT
+ - Documentations
+
+Entretien final : 
+ - Suite de sa carrière ? Avant ? 
 
 Securité : 
     - https://owasp.org/
@@ -91,8 +97,11 @@ Methodo GIT : https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.htm
 https://caninclude.glitch.me/
 & CanIUse
 
+Structure SCSS : https://matthewelsom.com/blog/simple-scss-playbook.html
+
 https://app.designerdailyreport.com/index
 
+COMPTE YOUTUBE :  
 https://www.youtube.com/@developpeur.muscle
 https://www.youtube.com/@NouvelleTechno
 
