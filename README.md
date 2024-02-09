@@ -99,6 +99,8 @@ https://caninclude.glitch.me/
 
 Structure SCSS : https://matthewelsom.com/blog/simple-scss-playbook.html
 
+Blog à lire : https://www.jesuisundev.com/
+
 https://app.designerdailyreport.com/index
 
 COMPTE YOUTUBE :  
