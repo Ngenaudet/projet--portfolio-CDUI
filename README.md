@@ -97,6 +97,8 @@ Methodo GIT : https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.htm
 https://caninclude.glitch.me/
 & CanIUse
 
+https://definitions-digital.com/
+
 Structure SCSS : https://matthewelsom.com/blog/simple-scss-playbook.html
 
 Blog à lire : https://www.jesuisundev.com/
