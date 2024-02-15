@@ -83,6 +83,9 @@ https://www.designsystems.com/open-design-systems/
 A demander : 
  - Wireframe  - Responsive - concept MVC - code commentaire - test unitaires - norme de codage - RGPD - CDC - ES6 - concept ajax - fonction php principales - GIT
  - Documentations
+ - PSR 12 - MVP : minimum valuable product
+ - bernard : "Amusez vous mais amusez vous sérieusement" ; "la vérité d aujourd'hui n 'est pas forcément celle de demain"
+ - Hashage(non reversible) vs cryptage (faisable)
 
 Entretien final : 
  - Suite de sa carrière ? Avant ? 
