@@ -78,6 +78,12 @@ https://caninclude.glitch.me/
 CDUI :
 https://www.designsystems.com/open-design-systems/
 
+Application FIGMA NOOBA : 
+https://www.figma.com/file/PyVqhJhPYSjklh341BSvqb/Nooba---App?type=design&node-id=5-7&mode=design&t=3EOX85HqtW4Pe2O6-0
+
+10 questions UX : https://10ideesrecuesenuxdesign.castoretpollux.com/fr/ 
+
+
 https://design-accessible.fr/checklist
 
 #DWWM JURY :
