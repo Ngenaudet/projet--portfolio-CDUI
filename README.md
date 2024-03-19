@@ -134,4 +134,9 @@ https://www.youtube.com/@NouvelleTechno
 ▸ Abduzeedo - abduzeedo.com
 
 
+------------------------------------------
+Génération de brief :  
+https://goodbrief.io/
+
+
 
