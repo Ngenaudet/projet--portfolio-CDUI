@@ -15,7 +15,6 @@ Uplabs<br/>
 Exemple de site : Awwwards ---- Godly.website<br/>
 site immersif : il faut scenariser l expérience utilisateur sur un site comme -> Frame.io<br/>
 Picular, coolors, Adobe coulor, Pantone, happy Hue<br/>
-Noun project : base picto, base de creation d un logo, piste pour un logo <br/>
 Burst, unsplash, pexel, mixkit vidéo<br/>
 kit UI: https://ui8.net/ <br/>
 site de curation / ressources +++ : Allthefreestock<br/>
@@ -48,6 +47,11 @@ https://thenounproject.com/ <br/>
 https://www.codecademy.com/ <br/>
 https://gumroad.com/discover <br/>
 https://marketingexamples.com/ <br/>
+
+Icons : 
+https://heroicons.com/
+THe Noun project : base picto, base de creation d un logo, piste pour un logo <br/>
+
 
 Outils no-code : 
 https://www.contournement.io/
