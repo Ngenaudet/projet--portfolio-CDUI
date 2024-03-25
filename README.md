@@ -52,6 +52,8 @@ Icons :
 https://heroicons.com/
 THe Noun project : base picto, base de creation d un logo, piste pour un logo <br/>
 
+API:
+https://medium.com/@techworldwithmilan/rest-api-design-best-practices-2eb5e749d428
 
 Outils no-code : 
 https://www.contournement.io/
