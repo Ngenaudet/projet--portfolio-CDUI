@@ -87,6 +87,7 @@ https://www.figma.com/file/PyVqhJhPYSjklh341BSvqb/Nooba---App?type=design&node-i
 https://design-accessible.fr/checklist
 
 #DWWM JURY :
+Methode MCD merise : https://web.maths.unsw.edu.au/~lafaye/CCM/merise/mcd.htm#:~:text=Le%20mod%C3%A8le%20conceptuel%20des%20donn%C3%A9es,l'aide%20d'entit%C3%A9s.
 A demander : 
  - Wireframe  - Responsive - concept MVC - code commentaire - test unitaires - norme de codage - RGPD - CDC - ES6 - concept ajax - fonction php principales - GIT
  - Documentations
