@@ -91,19 +91,20 @@ https://www.figma.com/file/PyVqhJhPYSjklh341BSvqb/Nooba---App?type=design&node-i
 10 questions UX : https://10ideesrecuesenuxdesign.castoretpollux.com/fr/ 
 
 Sécurité : 
-https://cyber.gouv.fr/
+https://cyber.gouv.fr/ <br>
 https://owasp.org/
 
 Challenge CODE : 
-https://www.codewars.com/
+https://www.codewars.com/ <br>
 
+Checklist des bonnes pratique d accessibilité : 
 https://design-accessible.fr/checklist
 
 #DWWM JURY :
 Methode MCD merise : https://web.maths.unsw.edu.au/~lafaye/CCM/merise/mcd.htm#:~:text=Le%20mod%C3%A8le%20conceptuel%20des%20donn%C3%A9es,l'aide%20d'entit%C3%A9s.
 A demander : 
  - Wireframe  - Responsive - concept MVC - code commentaire - test unitaires - norme de codage - RGPD - CDC - ES6 - concept ajax - fonction php principales - GIT
- - Documentations
+ - Documentations  
  - PSR 12 - MVP : minimum valuable product
  - bernard : "Amusez vous mais amusez vous sérieusement" ; "la vérité d aujourd'hui n 'est pas forcément celle de demain"
  - Hashage(non reversible) vs cryptage (faisable)
