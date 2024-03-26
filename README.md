@@ -79,7 +79,8 @@ https://www.toools.design/
 https://invox.fr/premium/
 
 https://caninclude.glitch.me/
-& CanIUse
+CanIUse : https://caniuse.com/
+https://www.whocanuse.com/
 
 CDUI :
 https://www.designsystems.com/open-design-systems/
