@@ -3,6 +3,8 @@ Dans le cadre du développement d'un Portfolio de professionnel du Web, le besoi
 
 Veille IT 
 
+https://gamma.app/
+
 https://www.weweb.io/showcase <br>
 Les prints du lundi <br/>
 https://cours-bts-communication.fr/cahier-charges-projet-communication/<br/>
