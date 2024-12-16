@@ -123,6 +123,7 @@ Entretien final :
 Securité : 
     - https://owasp.org/
     - https://www.zataz.com/cybersecurite/
+    - 
     
 Orthographe : https://bonpatron.com/fr/
 
@@ -155,6 +156,13 @@ https://www.youtube.com/@NouvelleTechno
 ▸ Httpster - httpster.net
 ▸ Search by Muzli - search.muz.li
 ▸ Abduzeedo - abduzeedo.com
+
+Bibliographie : 
+▸ Clean Architecture : A Craftsman'S Guide To Software Structure And
+Design – Robert C. Martin
+▸ Clean Code : A Handbook of Agile Software Craftsmanship – Rober
+ C.Martin
+▸ Refactoring – Martin Fowler Avec la participation de Kent Beck.
 
 
 ------------------------------------------
